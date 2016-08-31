@@ -1,0 +1,7 @@
+curl -X POST \
+-H "X-RosetteAPI-Key: your_api_key" \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-H "Cache-Control: no-cache" \
+-d '{"content": "The Ghostbusters movie was filmed in Boston."}' \
+"http://seuss.basistech.net:8181/rest/v1/tvec"
